@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Raleway:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+    <title>Ajuste de Ilumina</title>
+</head>
+<body>
+    <div id="container">
+        
+        <div class="retangulo" id="retangulo">
+        </div>
+        
+        <h1> Ajustes de Iluminacão</h1>
+        <div class="iluminacao">
+            <div class="multicolor">
+                <img src="/assets/type=color.svg" alt="">
+                <div class="line">
+                    <input type="range" min="0" max="100" value="50" id="line_Color"> 
+                </div>
+            </div>
+            <div class="multicolor">
+                <img src="/assets/type=brightness.svg" alt="">
+                <div class="line">
+                  <input type="range" min="0" max="100" value="50" id="line_Bright">                   
+                </div>
+            </div>
+            <div class="multicolor">
+                <img src="/assets/type=contrast.svg" alt="">
+                 <div class="line">
+                   <input type="range" min="0" max="100" value="50" id="line_Contrast">      
+                </div>
+            </div>
+            
+         </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

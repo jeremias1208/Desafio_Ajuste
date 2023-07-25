@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+color: white;
+
+}
+#container{
+  width: 430px;
+  height: 932px;
+ background:  #151515;
+ align-items: center;
+ text-align: center;
+ display: inline-block;
+ overflow: hidden;
+ 
+}
+.retangulo{
+background-color: rgb(0, 255, 191);
+border-radius: 100%;
+display: block;
+ width: 830px;
+ height: 800px;
+flex-shrink: 0;
+box-shadow: 0px 0px 53px 13px rgb(0, 255, 191);
+margin: -496px -220px 0 -196px;
+}
+
+h1{
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 38px;
+  margin: 105px 0 90px 0;
+}
+.iluminacao{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 82px;
+}
+.multicolor{
+  display: flex;
+  width: 321px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.line{
+width: 281px;
+height: 18px;
+flex-shrink: 0;
+position: relative;
+}
+
+input[type="range"]{
+  -webkit-appearance: none;
+  width: 100%;
+  height: 5px;
+  border-radius: 12px;
+  }
+  input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+
+  }
+
+  #retangulo{
+
+  }
+#line_Color{
+    background: linear-gradient(to right, red, yellow, green, cyan, blue, magenta, red);
+}
+#line_Bright{
+background-image: linear-gradient(to right, #000000, #404040, #7F7F7F, #BFBFBF, #FFFFFF);
+
+}
+#line_Contrast{
+background-image: linear-gradient(to right, #ffffff, #000000);
+}
